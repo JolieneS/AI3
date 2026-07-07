@@ -1,0 +1,11 @@
+sqlalchemy
+langchain-core
+langchain-groq
+langgraph
+fastapi
+uvicorn
+nest-asyncio
+pyngrok
+pandas
+matplotlib
+pydantic
