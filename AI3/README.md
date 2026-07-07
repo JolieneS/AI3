@@ -122,7 +122,7 @@ uvicorn api.app:app --reload
 
 Set your Groq API key as an environment variable before running (never commit real keys):
 ```bash
-export GROQ_API_KEY="your_key_here"
+export GROQ_API_KEY="keyyyyy!!!!!!!!!"
 ```
 
 ---
@@ -141,13 +141,19 @@ export GROQ_API_KEY="your_key_here"
 
 ## Screenshots
 
-_Add screenshots of the following before submission:_
-- [ ] Swagger `/docs` page showing all 5 endpoints
-- [ ] A successful `POST /customers` response
-- [ ] A successful `POST /query/agent` response (shows the AI answer)
-- [ ] A successful `GET /cohorts/analysis` response (shows retention_curve + heart_scores)
-- [ ] The HEART dashboard bar chart
-- [ ] A `403 Invalid role` response, proving RBAC actually blocks bad requests
+- [ ] <img width="943" height="363" alt="image" src="https://github.com/user-attachments/assets/55a74562-1631-479b-8a8c-0c6390cf0ffb" />
+
+- [ ] <img width="919" height="151" alt="image" src="https://github.com/user-attachments/assets/fae8725a-d8c1-4753-8996-6000fbb35213" />
+
+- [ ] <img width="839" height="113" alt="image" src="https://github.com/user-attachments/assets/29dbb631-a507-448f-b2d8-3309bdc003a3" />
+
+- [ ] <img width="828" height="103" alt="image" src="https://github.com/user-attachments/assets/50d0cc05-2680-4fce-8d6c-06533756c83d" />
+
+      
+- [ ] <img width="823" height="131" alt="image" src="https://github.com/user-attachments/assets/fd235092-af91-4111-822c-5bc49446840a" />
+
+   
+- [ ] <img width="476" height="265" alt="image" src="https://github.com/user-attachments/assets/064f7b16-17b7-4e24-8e52-6cf4316bd45e" />
 
 ---
 
