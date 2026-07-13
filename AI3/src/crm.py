@@ -1,9 +1,5 @@
 """
 crm.py - Customer and ticket CRUD and lifecycle management (Module 1)
-
-Sets up the SQLite database via SQLAlchemy, defines the Customer and
-Ticket tables, and provides the CRUD functions every other module
-(agents, cohort, heart, api) builds on top of.
 """
 
 from sqlalchemy import create_engine, Column, Integer, String, DateTime, ForeignKey, Text
