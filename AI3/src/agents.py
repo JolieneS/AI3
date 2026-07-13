@@ -11,7 +11,7 @@ from typing import TypedDict
 from src.crm import update_ticket_status
 from src.memory import get_customer_memory, save_memory
 
-# API key is read from an environment variable - never hardcode real keys in source files.
+
 llm = ChatGroq(model="llama-3.1-8b-instant", groq_api_key=os.environ.get("GROQ_API_KEY"))
 
 
