@@ -1,9 +1,6 @@
 """
 cohort.py - Cohort segmentation, retention curves, churn scoring (Module 3)
 
-Pure data-analysis module (pandas), no LLM calls. Groups customers by
-signup month, computes a retention curve, and scores churn probability
-using recency, engagement, and ticket activity signals.
 """
 
 import pandas as pd
