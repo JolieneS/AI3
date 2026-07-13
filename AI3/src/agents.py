@@ -1,10 +1,6 @@
 """
 agents.py - LangGraph workflows and LangChain chain definitions (Module 2)
 
-Contains:
-- The LLM connection (Groq / Llama-3.1-8b-instant)
-- A memory-aware LangChain summarization function
-- A LangGraph agent that categorizes, routes, and escalates tickets
 """
 
 import os
@@ -19,7 +15,6 @@ from src.memory import get_customer_memory, save_memory
 llm = ChatGroq(model="llama-3.1-8b-instant", groq_api_key=os.environ.get("GROQ_API_KEY"))
 
 
-# ---------- LangChain summarization chain ----------
 
 def summarize_ticket_with_memory(ticket):
     past_context = get_customer_memory(ticket.customer_id)
@@ -44,8 +39,6 @@ Suggested Resolution: <one line>"""
     save_memory(ticket.customer_id, ticket.id, summary)
     return summary
 
-
-# ---------- LangGraph ticket routing agent ----------
 
 class TicketState(TypedDict):
     ticket_id: int
