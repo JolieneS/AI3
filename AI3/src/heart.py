@@ -1,8 +1,6 @@
 """
 heart.py - HEART framework metric computation and aggregation (Module 4)
 
-Computes the five Google HEART dimensions (Happiness, Engagement,
-Adoption, Retention, Task Success) directly from live CRM data.
 """
 
 from src.crm import SessionLocal, Customer, Ticket
