@@ -1,9 +1,6 @@
 """
 memory.py - Per-customer interaction memory and chat history (part of Module 2)
 
-Provides a persistent short-term context window per customer, backed
-by its own database table, so the LLM layer can recall recent
-interactions instead of treating every ticket as a first contact.
 """
 
 from sqlalchemy import Column, Integer, ForeignKey, Text, DateTime
